@@ -1,0 +1,10 @@
+---
+title: "Notes"
+output: html_document
+---
+# R Class Notes - (1.21.25 & 1.23.25)
+**Bold** 
+*Italicized*
+
+
+
