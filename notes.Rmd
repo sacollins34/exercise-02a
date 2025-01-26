@@ -1,18 +1,29 @@
 ---
-title: "Notes"
+title: "Notes: Exercise 02a"
+author: "Stephen Collins" 
+date: "`r format(Sys.time(), '%m.%d.%Y')`"
 output: html_document
 ---
-
 # R Class Notes - (1.21.25 & 1.23.25)
 
 **Bold** *Italicized*
 
+These are instructions for creating bullet points:
+
+- Adding bullet points
+- There needs to be a line between main sentence and bullet points
+- Another one (DJ Khalid)
+
+Need three slanted ticks in the beginning and {code your working with} to create a code block then at the end three slanted ticks again: 
+
+``` {code name}
+
+```
+
+
+Writing code within Rmarkdown example: 
 ```{r}
  
-|include: false
-
-1 + 1
-
 x <- 6
 
 y <- 8 
@@ -22,17 +33,25 @@ z <- x + y
 z
 ```
 
-Ways that you are able to disable code from being displayed in the **HTML** doc. \* #\| include: false \* #\| echo: false
+These are ways that you are able to disable code or results from being displayed in the **HTML** doc: 
 
-```{r}
+- Within the {r <function>} bracket you must include the functions below:
+- <include = False> Prevents code and results from appearing
+- <echo = FALSE>    Prevents code from appearing
+- <message = FALSE> Prevents any messages from appearing
+- <warning = FALSE> prevents warnings from appearing 
 
+```{r echo = FALSE}
+x <- 6
+
+y <- 8 
+
+z <- x + y
+
+z
 
 ```
 
-disables the printing of code\
-\
-#\| include: false
 
-#\| echo: false
 
-Need three ticks and {code your working with} to create a code block
+
