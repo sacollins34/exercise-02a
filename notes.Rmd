@@ -2,9 +2,37 @@
 title: "Notes"
 output: html_document
 ---
+
 # R Class Notes - (1.21.25 & 1.23.25)
-**Bold** 
-*Italicized*
+
+**Bold** *Italicized*
+
+```{r}
+ 
+|include: false
+
+1 + 1
+
+x <- 6
+
+y <- 8 
+
+z <- x + y
+
+z
+```
+
+Ways that you are able to disable code from being displayed in the **HTML** doc. \* #\| include: false \* #\| echo: false
+
+```{r}
 
 
+```
 
+disables the printing of code\
+\
+#\| include: false
+
+#\| echo: false
+
+Need three ticks and {code your working with} to create a code block
