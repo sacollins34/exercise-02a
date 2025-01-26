@@ -16,6 +16,8 @@ These are instructions for creating bullet points:
 
 Need three slanted ticks in the beginning and {code your working with} to create a code block then at the end three slanted ticks again: 
 
+- It will run the code and then give you the output of the code
+
 ``` {code name}
 
 ```
